@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Repository profile shown in Community Applications. Must stay in the repo
+  root and must have a non-empty <Profile>. Optional: <Forum> (Unraid forum
+  support thread), <DonateLink>, <DonateText>.
+-->
+<CommunityApplications>
+  <Profile>
+    unraid-apps is the Community Applications template repository for ggardenhire's
+    self-hosted applications. It is the single place Unraid pulls Docker templates
+    from; each app's source code lives in its own repository.
+
+    Applications maintained here:
+
+    - curtain - a public-facing, read-only dashboard for your Unraid server (live
+      metrics, storage breakdown, quick links). https://github.com/ggardenhire/curtain
+    - podium - a thin, self-updating static-site runner that clones, builds and
+      serves GitHub repos and redeploys on push. https://github.com/ggardenhire/podium
+
+    For help, bug reports, or feature requests, open an issue on the relevant
+    project repository linked above.
+  </Profile>
+  <Icon>https://raw.githubusercontent.com/ggardenhire/unraid-apps/main/icons/curtain.png</Icon>
+  <WebPage>https://github.com/ggardenhire/unraid-apps</WebPage>
+  <!-- Optional support links -->
+  <!-- <Forum>https://forums.unraid.net/topic/YOUR_SUPPORT_TOPIC</Forum> -->
+  <!-- <Discord>https://discord.gg/YOUR_INVITE_CODE</Discord> -->
+  <!-- Optional profile extras -->
+  <!-- <DonateLink>https://github.com/sponsors/ggardenhire</DonateLink> -->
+  <!-- <DonateText>Support this project</DonateText> -->
+</CommunityApplications>
